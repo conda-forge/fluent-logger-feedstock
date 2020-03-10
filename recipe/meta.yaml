@@ -1,5 +1,5 @@
 {% set name = "fluent-logger" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d7a34a30caec7828b3dfc304360cae0557aa8bb550106e613bab857a02c4cc8a
+  sha256: a7d47eae4d2a11c8cb0df10ae3d034d95b0b8cef9d060e59e7519ad1f82ffa73
 
 build:
   noarch: python
